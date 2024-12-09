@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rafael Montero">
+    <meta name="description" content="
+    ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+    para darte energía y motivar tu creatividad.
+  ">
+    <meta name="keywords" content="Tripleten, café, cafetería"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <title>Triple Espresso</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./pages/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes" class="nav__link"
+                >Recetas</a
+              >
+            </li>
+            <li>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
+            </li>
+            <li>
+              <a href="#" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Café de especialidad
+            </h1>
+            <p class="header__subtitle">con Triple Peaks</p>
+            <p class="header__description">
+              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+              para darte energía y motivar tu creatividad.
+            </p>
+          </div>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Ilustración 'Dentro de la cafetería'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__schedule">Horario:<br>
+            Lunes a Viernes (de 10:00h a 19:00h)<br>
+            Sábados y Domingos (de 11:00h a 18:00h)
+          </p>
+          <p class="header__address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+        </div>
+      </header>
+      <main class="content">
+          <section class="recipes" id="recipes">
+            <h2 class="recipes__title">Recetas</h2>
+            <p class="recipes__subtitle">Echa un vistazo a las recetas que hemos<br> 
+              reunido para que elabores tus propios snacks</p>
+            <ul class="recipes__cards">
+              <li class="card">
+                <div class="recipes__content">
+                <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/MjvKo3ljewQ?si=lHS3H_uLZxMFCcbz" 
+                title="YouTube video player" 
+                allowfullscreen></iframe>
+                <p class="card__footer">
+                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
+                </p>
+                
+              </div>
+              </li>
+         
+              <li class="recipes">
+                <div class="recipes__content">
+                  <h3 class="recipes__title">
+                    La estructura e interpretación de los programas
+                    computacionales (SICP) hola
+                  </h3>
+                  <p class="card__text">
+                    Este es uno de los mejores libros para aprender los conceptos
+                    básicos de la programación. Incluido por el MIT en uno de sus
+                    cursos básicos de programación, SICP es un libro de
+                    programación de carácter general que utiliza Scheme para
+                    ilustrar diversos conceptos de programación.
+                  </p>
+                  <p class="recipes__footer">
+                    Harold Abelson, Gerald Jay Sussman, Julie Sussman
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="reservation" id="reservation">
+            <div class="reservation__content">
+            <p class="reservation__title">Reservar una mesa</p>
+            </div>
+          </section>
+
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo_blanco"
+              class="footer__logo"
+            />
+          </div>
+        
+          <div class="footer__column footer__column_content_social">
+            <div>
+              <h3 class="footer__column-heading">Redes Sociales</h3>
+              <ul class="footer__list">
+                <li
+                  class="footer__social-list-fb footer__list-item footer__column-link"
+                >
+                  <a class="footer__column-link">
+                    <img
+                      src="./images/facebook_white.svg"
+                      alt="FB_icono"
+                      class="footer__social-icon"
+                    />
+                    Facebook</a
+                  >
+                </li>
+                <li
+                  class="footer__social-list-ig footer__list-item footer__column-link"
+                >
+                  <a href="#" class="footer__column-link">
+                    <img
+                      src="./images/instagram_white.svg"
+                      alt="IG_icono"
+                      class="footer__social-icon"
+                    />
+                    Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <a class="footer__copyright"> ©2024 Rafael D. Montero Miranda</a>
+      </footer>
+    </div>
+  </body>
+</html>
